@@ -15,6 +15,8 @@ In this benchmark, 1,050 samples of response 1 are considered to align with huma
 
 LLMEval² contains a collection of 2,553 evaluation samples, each annotated with human preferences, across all 15 datasets, including [OpenMEVA](https://github.com/krystalan/chatgpt_as_nlg_evaluator), [Summeval](https://github.com/krystalan/chatgpt_as_nlg_evaluator), [Summarize-Feedback](https://github.com/openai/summarize-from-feedback\#human-feedback-data), [Bagel](https://github.com/krystalan/chatgpt_as_nlg_evaluator), [WebGPT](https://huggingface.co/datasets/openai/webgpt\_comparisons), [HH-RLHF](https://github.com/anthropics/hh-rlhf), [MT-Bench](https://github.com/lm-sys/FastChat), [RLHF-Reward-Russian](https://huggingface.co/datasets/d0rj/rlhf-reward-datasets-ru), [HellaSwag](https://github.com/rowanz/hellaswag), [RLHF-Reward-Chinese](https://huggingface.co/datasets/beyond/rlhf-reward-single-round-trans\_chinese), [Reward-Aira-Portuguese](https://huggingface.co/datasets/nicholasKluge/reward-aira-dataset), [ELI5](https://huggingface.co/datasets/eli5), [SHP](https://huggingface.co/datasets/stanfordnlp/SHP), [PKU-SafeRLHF](https://huggingface.co/datasets/PKU-Alignment/PKU-SafeRLHF-10K) and [Code-Contests](https://huggingface.co/datasets/deepmind/code\_contests).
 
+The benchmark encompasses eight tasks: Story Generation, Text Summarization, Data-to-Text Generation, Retrieval QA, Dialogue, Commonsense NLI, Open-domain QA, and Programming. These tasks evaluate eight abilities of the benchmark: *Induction and Summarization*, *Semantic Understanding*, *Knowledge QA*, *Logical Reasoning*, *Text Composition*, *Dialogue*, *Harmlessness* and *Multilingual*.
+
 ## How to Run
 ```
 cd BroadLLM
